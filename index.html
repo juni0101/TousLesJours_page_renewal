@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1." />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/swiper-bundle.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="./swiper-bundle.min.js"></script>
+    <link rel="icon" href="images/favicon.ico" />
+    <title>뚜레쥬르</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/response.css" />
+    <script src="./script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/3cb34be75b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"><img src="./images/logo.png" alt="뚜레쥬르 로고" /></a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li class="underline"><a href="#">브랜드 스토리</a></li>
+          <li class="underline">
+            <a href="#">매장안내</a>
+          </li>
+          <li id="product" class="underline">
+            <a href="#">제품안내</a>
+            <ul id="product-sub">
+              <li><a href="#">빵</a></li>
+              <li><a href="#">케이크</a></li>
+              <li><a href="#">델리</a></li>
+            </ul>
+          </li>
+          <li class="underline"><a href="#">이벤트&멤버십</a></li>
+          <li class="underline"><a href="#">고객센터</a></li>
+        </ul>
+      </div>
+      <div class="sns">
+        <ul>
+          <li class="underline"><a href="#">Login</a></li>
+          <li class="underline"><a href="#">Join</a></li>
+          <li class="underline"><a href="#">Search</a></li>
+        </ul>
+      </div>
+
+      <!-- mobile - accordion -->
+
+      <div class="accordion-i">
+        <div id="bar"><i class="fa-solid fa-bars"></i></div>
+        <div id="x"><i class="fa-solid fa-x"></i></div>
+      </div>
+
+      <div class="group g1">
+        <div class="box">
+          <strong class="title title1"><a href="#">브랜드 스토리</a></strong>
+        </div>
+        <div class="box">
+          <strong class="title"><a href="#">매장안내</a></strong>
+        </div>
+        <div class="box">
+          <strong class="title"><a href="#">제품안내</a></strong>
+          <div class="cont"><a href="#">빵</a></div>
+          <div class="cont"><a href="#">케이크</a></div>
+          <div class="cont"><a href="#">델리</a></div>
+        </div>
+        <div class="box">
+          <strong class="title"><a href="#">이벤트&멤버십</a></strong>
+        </div>
+        <div class="box">
+          <strong class="title"><a href="#">고객센터</a></strong>
+        </div>
+      </div>
+      <!-- mobile accordion -->
+    </header>
+
+    <div class="container">
+      <div id="sec1" class="sec">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="sec1-img">
+                <img src="./images/sec1-1.jpg" alt="베이커리매장" />
+              </div>
+              <div class="sec1-text">
+                <p>매장에서 직접굽는</p>
+                <p>Fresh Bakery</p>
+                <button>SHOP NOW ></button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="sec1-img">
+                <img src="./images/sec1-2.jpg" alt="반죽장면" />
+              </div>
+              <div class="sec1-text">
+                <p>좋은 밀가루를 만드는 회사의</p>
+                <p>Bakery Brand</p>
+                <button>SHOP NOW ></button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="sec1-img">
+                <img src="./images/sec1-3.jpg" alt="빵사진" />
+              </div>
+              <div class="sec1-text">
+                <p>선별된 좋은 재료를 사용하여</p>
+                <p>A Healthier Product</p>
+                <button>SHOP NOW ></button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="sec1-img">
+                <img src="./images/sec1-4.jpg" alt="매장 빵진열 사진" />
+              </div>
+              <div class="sec1-text">
+                <p>여기는 신선함이 가득한 베이커리</p>
+                <p>Tous Les Jours</p>
+                <button>SHOP NOW ></button>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <!-- #sec1 -->
+
+      <div id="sec2" class="sec">
+        <div class="sec2-wrapper">
+          <h2 class="subject_h2">MONTHLY BEST</h2>
+          <div class="sec2-wrap">
+            <ul>
+              <li>
+                <div class="sec2-products">
+                  <a href="#"
+                    ><img src="./images/sec2-1.jpg" alt="겹겹이 말차 퐁당"
+                  /></a>
+                </div>
+                <div class="sec2-text">
+                  <p>겹겹이 말차 퐁당</p>
+                  <p>Matcha Pastry</p>
+                </div>
+              </li>
+              <li>
+                <div class="sec2-products">
+                  <a href="#"
+                    ><img
+                      src="./images/sec2-2.jpg"
+                      alt="까망쿠키 속 리얼말차 크림빵"
+                  /></a>
+                </div>
+                <div class="sec2-text">
+                  <p>까망쿠키 속 리얼말차 크림빵</p>
+                  <p>Matcha Cream Bread</p>
+                </div>
+              </li>
+              <li>
+                <div class="sec2-products">
+                  <a href="#"
+                    ><img src="./images/sec2-3.jpg" alt="뚜쥬맘 계란 토스트"
+                  /></a>
+                </div>
+                <div class="sec2-text">
+                  <p>뚜쥬맘 계란 토스트</p>
+                  <p>egg toast</p>
+                </div>
+              </li>
+              <li>
+                <div class="sec2-products">
+                  <a href="#"
+                    ><img src="./images/sec2-4.jpg" alt="바삭 연유 콘치즈"
+                  /></a>
+                </div>
+                <div class="sec2-text">
+                  <p>바삭 연유 콘치즈</p>
+                  <p>Corn Cheese</p>
+                </div>
+              </li>
+              <li>
+                <div class="sec2-products">
+                  <a href="#"
+                    ><img src="./images/sec2-5.png" alt="김치 고로케"
+                  /></a>
+                </div>
+                <div class="sec2-text">
+                  <p>김치 고로케</p>
+                  <p>Kimchi Croquette</p>
+                </div>
+              </li>
+              <li>
+                <div class="sec2-products">
+                  <a href="#"
+                    ><img src="./images/sec2-6.jpg" alt="퐁신퐁신 우유 도넛"
+                  /></a>
+                </div>
+                <div class="sec2-text">
+                  <p>퐁신퐁신 우유 도넛</p>
+                  <p>milk donuts</p>
+                </div>
+              </li>
+              <li>
+                <div class="sec2-products">
+                  <a href="#"
+                    ><img src="./images/sec2-7.jpg" alt="연유 퐁당 밀크 브레드"
+                  /></a>
+                </div>
+                <div class="sec2-text">
+                  <p>연유 퐁당 밀크 브레드</p>
+                  <p>condensed milk bread</p>
+                </div>
+              </li>
+              <li>
+                <div class="sec2-products">
+                  <a href="#"
+                    ><img src="./images/sec2-8.jpg" alt="갈릭 퐁당 브레드"
+                  /></a>
+                </div>
+                <div class="sec2-text">
+                  <p>갈릭 퐁당 브레드</p>
+                  <p>garlic bread</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- .sec2-wrap -->
+        </div>
+      </div>
+      <!-- #sec2 -->
+
+      <div id="sec3" class="sec">
+        <div class="sec3-wrap">
+          <div class="sec3-contents img2">
+            <div class="img-wrap2">
+              <img src="./images/sec3-1.jpg" alt="매장" />
+            </div>
+            <div class="sec3-text">
+              <p>SHOP</p>
+            </div>
+          </div>
+          
+          <div class="sec3-contents img3">
+            <div class="img-wrap3">
+              <img src="./images/sec3-2.gif" alt="글로벌" />
+            </div>
+            <div class="sec3-text">
+              <p>GLOBAL</p>
+            </div>
+          </div>
+          <div class="sec3-contents img4">
+            <div class="img-wrap4">
+              <img src="/images/sec3-3.jpg" alt="브랜드스토리" />
+            </div>
+            <div class="sec3-text">
+              <p>BRAND STORY</p>
+            </div>
+          </div>
+          <div class="sec3-contents img5">
+            <div class="img-wrap5">
+              <img src="./images/sec3-4.jpg" alt="상품" />
+            </div>
+            <div class="sec3-text">
+              <p>PRODUCT</p>
+            </div>
+          </div>
+          <div class="sec3-contents img6">
+            <div class="img-wrap6">
+              <img src="./images/sec3-5.jpg" alt="이벤트" />
+            </div>
+            <div class="sec3-text">
+              <p>EVENT</p>
+            </div>
+          </div>
+          <div class="sec3-contents img7">
+            <div class="img-wrap7">
+              <img src="/images/sec3-6.jpg" alt="포스터" />
+            </div>
+            <div class="sec3-text">
+              <p>POSTER</p>
+            </div>
+          </div>
+        </div>
+        <!-- .sec3-wrap -->
+      </div>
+      <!-- #sec3 -->
+
+      <div id="sec4" class="sec">
+        <h2 class="subject_h2">OUR STORY</h2>
+        <div class="sec4-wrap">
+          <div class="sec4-left">
+            <img src="./images/sec4-1.png" alt="빵1" />
+            <img src="./images/sec4-2.png" alt="빵2" />
+            <img src="./images/sec4-3.png" alt="빵3" />
+          </div>
+          <div class="sec4-right">
+            <p class="sec4-right-1">GOOD ingredients, <br />fresh bakery</p>
+            <p class="sec4-right-2">
+              좋은 재료로 만들어 건강하고,<br />
+              매장에서 갓 구워 신선한 빵과 케이크를<br />
+              만날 수 있는 곳.<br />
+              여기는 신선함이 가득한 베이커리,<br />
+              뚜레쥬르입니다.
+            </p>
+            <button class="sec4-right-button">MORE +</button>
+          </div>
+        </div>
+      </div>
+      <!-- #sec4 -->
+
+      <div id="sec5" class="sec">
+        <!-- 공지사항 안내 -->
+        <ul>
+          <li class="notice1">
+            <a href="#">
+              <img
+                src="./images/edfb89df9c262f525f8240d51c8d7aa7_24210.png"
+                alt="창엄안내"
+              />
+              <p>창업안내</p>
+              <p>
+                뚜레쥬르 창업<br />
+                이렇게 시작해보세요
+              </p>
+            </a>
+          </li>
+          <li class="notice2">
+            <a href="#">
+              <img
+                src="./images/afb9cae04c530fddf4ea2c8c9408f97d_86855.png"
+                alt="기사 채용안내"
+              />
+              <p>기사 채용안내</p>
+              <p>
+                제과제빵의 꿈을<br />
+                뚜레쥬르와 함께하세요
+              </p>
+            </a>
+          </li>
+          <li class="notice3">
+            <a href="#">
+              <img
+                src="./images/0f736a708d69d9016bf2ea27f6857a08_67212.png"
+                alt="지역별 직배송 안내"
+              />
+              <p>지역별 직배송 안내</p>
+              <p>배송 관련 공지 바로가기</p>
+            </a>
+          </li>
+        </ul>
+
+        <!-- social 인스타그램 -->
+        <h2 class="subject_h2">SOCIAL</h2>
+        <p id="insta-text">@touslesjours_kr</p>
+        <swiper-container
+          class="mySwiper"
+          pagination="true"
+          effect="coverflow"
+          grab-cursor="true"
+          centered-slides="true"
+          slides-per-view="auto"
+          coverflow-effect-rotate="50"
+          coverflow-effect-stretch="0"
+          coverflow-effect-depth="100"
+          coverflow-effect-modifier="1"
+        >
+          <swiper-slide>
+            <div class="sec5-slideWrap">
+              <img src="/images/sec5-1.jpg" alt="녹차빵메뉴" />
+              <svg
+                aria-label="Carousel"
+                color="#ffffff"
+                fill="#ffffff"
+                height="22"
+                role="img"
+                viewBox="0 0 48 48"
+                width="40"
+                hidden="40"
+              >
+                <path
+                  d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"
+                  transform="scale(1.2)"
+                ></path>
+              </svg>
+              <p>
+                #뚜레쥬르 #TousLesJours #그린대로 #새해 #신년 #건강 #말차
+                #말차디저트 #제주말차 #겹겹이말차퐁당 건강에 진심인 뚜쥬가
+                건강한 제로말차에 퐁당! 빠져버렸다!?
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="sec5-slideWrap">
+              <img src="/images/sec5-2.jpg" alt="2024메뉴" />
+              <svg
+                aria-label="Carousel"
+                color="#ffffff"
+                fill="#ffffff"
+                height="22"
+                role="img"
+                viewBox="0 0 48 48"
+                width="40"
+                hidden="40"
+              >
+                <path
+                  d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"
+                  transform="scale(1.2)"
+                ></path>
+              </svg>
+              <p>
+                #touslesjours #뚜레쥬르 #건강 #말차 #말차디저트 #제주말차
+                #까망쿠키속리얼말차크림빵 뚜쥬와 말차의 만남을 기다린 뚜덕이들
+                모여라! 댓글로 기대평을 남겨주면 추첨을 통해 선물을 줄게💚
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="sec5-slideWrap">
+              <img src="/images/sec5-3.jpg" alt="크리스마스 메뉴" />
+              <svg
+                aria-label="Carousel"
+                color="#ffffff"
+                fill="#ffffff"
+                height="22"
+                role="img"
+                viewBox="0 0 48 48"
+                width="40"
+                hidden="40"
+              >
+                <path
+                  d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"
+                  transform="scale(1.2)"
+                ></path>
+              </svg>
+              <p>
+                #touslesjours #뚜레쥬르 #크리스마스 #Christmas #크리스마스디저트
+                크리스마스를 기다리는 뚜덕이의 설렘이 담긴 선물 같은 디저트 🎁
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="sec5-slideWrap">
+              <img src="/images/sec5-4.jpg" alt="어워즈 수상자" />
+              <svg
+                aria-label="Carousel"
+                color="#ffffff"
+                fill="#ffffff"
+                height="22"
+                role="img"
+                viewBox="0 0 48 48"
+                width="40"
+                hidden="40"
+              >
+                <path
+                  d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"
+                  transform="scale(1.2)"
+                ></path>
+              </svg>
+              <p>
+                #touslesjours #뚜레쥬르 #뚜쥬앱어워즈 #뚜쥬앱💚 뚜쥬앱을
+                사랑해준 모든 뚜덕이들 고마워요💚 앞으로도 쭈욱~ 함께 해요😘
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="sec5-slideWrap">
+              <img src="/images/sec5-5.jpg" alt="타임스퀘어 케이크" />
+              <svg
+                aria-label="Carousel"
+                color="#ffffff"
+                fill="#ffffff"
+                height="22"
+                role="img"
+                viewBox="0 0 48 48"
+                width="40"
+                hidden="40"
+              >
+                <path
+                  d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"
+                  transform="scale(1.2)"
+                ></path>
+              </svg>
+              <p>
+                #touslesjours #뚜레쥬르 #건강 #말차 #말차디저트 대형 케이크
+                등장에 제보가 쏟아지고 있다는데? (저기 어딘지 아는 사람?🤭)
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="sec5-slideWrap">
+              <img src="/images/sec5-6.jpg" alt="결제안내" />
+              <svg
+                aria-label="Carousel"
+                color="#ffffff"
+                fill="#ffffff"
+                height="22"
+                role="img"
+                viewBox="0 0 48 48"
+                width="40"
+                hidden="40"
+              >
+                <path
+                  d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"
+                  transform="scale(1.2)"
+                ></path>
+              </svg>
+              <p>
+                #touslesjours #뚜레쥬르 #크리스마스 #Christmas #크리스마스케이크
+                #위글위글 #콜라보 #위글베어 #카카오페이BIG 3사 혜택✨
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="sec5-slideWrap">
+              <img src="/images/sec5-7.jpg" alt="추석선물세트" />
+              <svg
+                aria-label="Carousel"
+                color="#ffffff"
+                fill="#ffffff"
+                height="22"
+                role="img"
+                viewBox="0 0 48 48"
+                width="40"
+                hidden="40"
+              >
+                <path
+                  d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"
+                  transform="scale(1.2)"
+                ></path>
+              </svg>
+              <p>
+                #touslesjours #뚜레쥬르 #설날 #설선물 #사전예약 #뚜쥬앱 福을
+                담은 뚜레쥬르의 설 선물세트로 미리 준비하세요🤍
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="sec5-slideWrap">
+              <img src="/images/sec5-8.jpg" alt="시크릿쥬쥬 세트" />
+              <svg
+                aria-label="Carousel"
+                color="#ffffff"
+                fill="#ffffff"
+                height="22"
+                role="img"
+                viewBox="0 0 48 48"
+                width="40"
+                hidden="40"
+              >
+                <path
+                  d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"
+                  transform="scale(1.2)"
+                ></path>
+              </svg>
+              <p>
+                #touslesjours #뚜레쥬르 #캐치티니핑 #새콤달콤캐치티니핑
+                #캐릭터케이크 #크리스마스파티 우리 아이와 완벽한 파티를 위한✨
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+      <!-- #sec5 -->
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer1">
+            <img src="./images/logo.png" alt="로고" />
+            <div class="footer1-text">
+              <span>상호명 : CJ푸드빌(주) </span>
+              <span>대표 : 김찬호</span>
+              <span>사업자등록번호 : 312-81-42519</span><br />
+              <span>통신판매업신고증 : 제 2001-서울중구-0771호</span><br />
+              <span
+                >주소 : (우)04555 서울시 중구 마른내로34(초동
+                106-9번지)KT&G을지로타워 3,9-11층 CJ푸드빌(주)</span
+              ><br />
+              <span>개인정보보호책임자 : 김재환</span
+              ><span>대표이메일 : help_master@cj.net</span><br />
+              <span>호스팅제공 : CJ올리브네트윅스(주)</span>
+            </div>
+          </div>
+          <div class="footer2">
+            <h3>Customer center</h3>
+            <h2>1811-9432</h2>
+            <p>상담시간 09:00 - 18:00</p>
+            <p>토/일/공휴일 휴무</p>
+          </div>
+          <div class="footer3">
+            <h3>About</h3>
+            <div class="footer-about-wrap">
+              <div class="footer-about-wrap-left">
+                <p><a href="#">회사소개</a></p>
+                <p><a href="#">이용약관</a></p>
+                <p><a href="#">기사채용안내</a></p>
+                <p><a href="#">개인정보처리방침</a></p>
+                <p><a href="#">창업안내</a></p>
+                <p><a href="#">윤리신고센터</a></p>
+              </div>
+              <div class="footer-about-wrap-right">
+                <p><a href="#">법적고지</a></p>
+                <p><a href="#">사이트맵</a></p>
+                <p><a href="#">이메일무단수집거부</a></p>
+                <p><a href="#">개인정보처리방침</a></p>
+                <p><a href="#">위치기반서비스이용약관</a></p>
+                <p><a href="#">영상정보처리기기운영방침</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="quick">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./images/fixed_qa.png" alt="신규문의" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/fixed_post.png" alt="자주하는질문" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/fixed_kako.png" alt="talk" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/fixed_Shipping.png" alt="지역별 배송안내" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/fixed_tip.png" alt="매출상승 팁" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/fixed_oem.png" alt="기업OEM포트폴리오" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/btn_scroll_top.png" alt="top버튼" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
