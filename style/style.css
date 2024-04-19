@@ -20,15 +20,16 @@ a {
 }
 
 body {
-  width: 1903px;
-  height: auto;
+  width: 100%;
+  height: max-content;
   overflow-x: hidden;
   background: #f7f0da;
 }
 
 @font-face {
   font-family: "SOGANGUNIVERSITYTTF";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SOGANGUNIVERSITYTTF.woff2") format("woff2");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SOGANGUNIVERSITYTTF.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -36,17 +37,19 @@ body {
   font-family: "DNFForgedBlade";
   font-style: normal;
   font-weight: 700;
-  src: url("//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Bold.otf") format("opentype");
+  src: url("//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Bold.otf")
+    format("opentype");
 }
 @font-face {
   font-family: "Cafe24Supermagic-Bold-v1.0";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2") format("woff2");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2")
+    format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 /* common */
 .container {
-  width: 1903px;
+  width: 100%;
   height: 935px;
 }
 
@@ -68,13 +71,20 @@ body {
   transform: scaleX(1);
 }
 
+/* quick */
 #quick {
   position: absolute;
-  top: 28%;
+  top: 23%;
   left: 93%;
   display: flex;
   z-index: 1;
   text-align: center;
+}
+#quick ul li {
+  width: 100px;
+}
+#quick ul li img {
+  width: 100%;
 }
 
 #bar-menu {
@@ -229,7 +239,7 @@ header {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   filter: brightness(0.8);
 }
 .swiper-slide .sec1-text {
@@ -242,14 +252,14 @@ header {
   transition: 1s;
 }
 .swiper-slide .sec1-text p:nth-of-type(1) {
-  font-size: 24px;
+  font-size: 2.5rem;
   font-family: "SOGANGUNIVERSITYTTF";
   color: white;
   text-shadow: 1px 1px 3px gray;
 }
 .swiper-slide .sec1-text p:nth-of-type(2) {
   font-family: "SOGANGUNIVERSITYTTF";
-  font-size: 4.5rem;
+  font-size: 8rem;
   color: white;
   text-shadow: 2px 2px 3px gray;
   filter: 5px 5px 10px black;
@@ -283,15 +293,16 @@ header {
 #sec2 {
   background: pink;
   width: 100%;
-  height: 130vh;
+  height: max-content;
   background: url(./images/augustine-wong-li0iC0rjvvg-unsplash.jpg);
   background-position: 92% 95%;
 }
 
 .sec2-wrapper {
-  width: 1700px;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
+  margin-bottom: 16rem;
 }
 
 .sec2-wrap {
@@ -338,7 +349,7 @@ header {
 /* sec3 */
 #sec3 {
   width: 100%;
-  height: 135vh;
+  height: max-content;
   background: rgb(103, 150, 103);
   background: url(./images/augustine-wong-li0iC0rjvvg-unsplash.jpg);
   background-position: 92% 95%;
@@ -355,6 +366,7 @@ header {
   padding-top: 60px;
   grid-gap: 20px;
   grid-template-areas: "b c c" "b d g" "e f g";
+  margin-bottom: 22rem;
 }
 .sec3-wrap .img2 {
   grid-area: b;
@@ -423,7 +435,7 @@ header {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   filter: brightness(0.8);
 }
 
@@ -435,7 +447,7 @@ header {
 .img-wrap7 img {
   transition: 0.5s;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .img2:hover .img-wrap2 img,
@@ -460,19 +472,22 @@ header {
 /* sec4 */
 #sec4 {
   width: 100%;
-  height: 140vh;
+  height: 140%;
   background: url(../images/sec4-bg.jpg);
   background-size: 127%;
   background-position: 94% 58%;
   background-attachment: fixed;
+  margin-bottom: 15rem;
 }
-
+#sec4 .sec4-wrap {
+  margin: 10rem auto;
+}
 #sec4 h2 {
   color: white;
 }
 
 .sec4-wrap {
-  width: 1900px;
+  width: 100%;
   margin: 0 auto;
   height: 700px;
   padding-top: 80px;
@@ -543,8 +558,8 @@ header {
 /* sec5 */
 #sec5 {
   width: 100%;
-  height: 170vh;
-  padding-top: 160px;
+  height: max-content;
+  padding-top: 100px;
 }
 
 #insta-text {
@@ -557,16 +572,16 @@ header {
 #sec5 ul {
   display: flex;
   width: 65%;
-  height: 25%;
+  height: max-content;
   margin: 0 auto;
   border: 1px solid black;
-  margin-bottom: 90px;
+  margin-bottom: 15rem;
 }
 #sec5 ul li {
   width: 70%;
   border-right: 1px solid black;
   text-align: center;
-  padding: 60px 30px;
+  padding: 80px 30px;
 }
 #sec5 ul li a p:nth-of-type(1) {
   font-size: 24px;
@@ -658,14 +673,16 @@ header {
 /* footer */
 footer {
   width: 100%;
-  height: 396px;
+  min-height: 396px;
   background: #2e2f2e;
+  transition: none;
 }
 footer .footer-container {
   padding: 82px 100px;
   display: grid;
   grid-template-columns: 2fr repeat(2, 1fr);
   color: #f7f0da;
+  margin-top: 15rem;
 }
 
 .footer1 {
@@ -706,4 +723,4 @@ footer .footer-container {
 }
 .footer3 .footer-about-wrap .footer-about-wrap-left {
   width: 50%;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

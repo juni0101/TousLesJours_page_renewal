@@ -110,12 +110,11 @@ function animateElements(
 
 // // quick menu
 $(document).ready(function () {
-  var currentPosition = parseInt($("#quick").css("top"));
+  let quick = $("#quick");
+  var currentPosition = parseInt(quick.css("top"));
   $(window).scroll(function () {
     var position = $(window).scrollTop();
-    $("#quick")
-      .stop()
-      .animate({ top: position + currentPosition + "px" }, 1000);
+    quick.stop().animate({ top: position + currentPosition + "px" }, 1000);
   });
 });
 
