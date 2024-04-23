@@ -17,7 +17,6 @@ JAVASCRIPT와 SASS를 이용하여 반응형 제작을 하였고, 참여도 100%
 ![Css](https://img.shields.io/badge/Css-1572B6?style=for-the-badge&logo=css3&logoColor=fff)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=fff)
- ,figma
 
 
 ## ⚙주요기능
